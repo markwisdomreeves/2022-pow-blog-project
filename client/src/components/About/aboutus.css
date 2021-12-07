@@ -1,0 +1,76 @@
+.main-about-us-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+}
+.about-us-container {
+  max-width: 900px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: justify;
+  background-color: #F8F8FF;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.about-content-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.about-content-box h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #DAA520;
+  font-weight: 600;
+  font-family: 'Kings', cursive, 'Lora', 'Josefin Sans', 'sans-serif';
+}
+.about-context-text-box {
+  padding: 10px;
+}
+.about-context-text-box p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.about-vision-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.about-vision-box ul li {
+  padding: 5px;
+}
+.about-vision-box ul li h5 {
+  font-size: 1.1rem;
+  color: #DAA520;
+}
+.about-vision-box ul li i {
+  padding: 2px;
+  color: #DAA520;
+}
+.private-about-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5px;
+}
+.private-about-four h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #DAA520;
+}
+.private-about-four h4 {
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 660px) {
+  .about-content-box h1 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .about-context-text-box p {
+    font-size: 15px;
+  }
+}

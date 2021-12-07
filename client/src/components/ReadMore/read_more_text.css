@@ -1,0 +1,23 @@
+.text {
+  display: inline;
+  width: 100%;
+  color: #fff;
+}
+.read-or-hide {
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+}
+.read-or-hide:hover {
+  text-decoration: underline;
+  font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+  .read-or-hide {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+}

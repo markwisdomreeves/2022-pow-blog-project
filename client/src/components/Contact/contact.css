@@ -1,0 +1,102 @@
+.main-contact-form-container {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: #212529; */
+}
+.inner-contact-form-content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+/* .contact-form-box-container {
+  max-width: 1200px;
+  margin-top: 20px;
+  padding: 20px;
+} */
+.contact-form-box-container form {
+  display: flex;
+  flex-direction: column;
+}
+/* .contact-input-box {
+  display: flex;
+  flex-direction: column;
+} */
+.inner-contact-form-content-box {
+  max-width: 450px;
+  margin: 0 auto;
+}
+.inner-contact-form-content-box h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+.inner-contact-form-content-box h6 {
+  text-align: center;
+  font-size: 1rem;
+  color: #ffa500;
+  margin-bottom: 20px;
+}
+.inner-contact-form-content-box .form_input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.contact_submit_btn {
+  width: 100%;
+  padding: 10px;
+  color: aliceblue;
+}
+.contact_submit_btn:hover {
+  background-color: #ffa500;
+  color: #212529;
+}
+.error_message_alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  margin-bottom: 6px;
+}
+
+/* success page */
+.success_form_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* background-color: #212529; */
+}
+.inner_success_box {
+  max-width: 92%;
+  height: 30vh;
+  border: 1px solid #ffa500;
+  padding: 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+.inner_success_box p {
+  font-size: 2rem;
+  color: aliceblue;
+  text-align: center;
+}
+@media screen and (max-width: 560px) {
+  .inner-contact-form-content-box h2 {
+    font-size: 2rem;
+  }
+  .contact-form-box-container {
+    margin-top: 2px;
+  }
+  .inner-contact-form-content-box .form_input {
+    margin-bottom: 10px;
+  }
+  .inner_success_box p {
+    font-size: 1.4rem;
+    color: aliceblue;
+    text-align: center;
+  }
+}
