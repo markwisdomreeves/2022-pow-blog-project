@@ -1,1 +1,1 @@
-# Pool of Writers' Blog Website
+# Pool of Writers' Website project
